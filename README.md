@@ -6,7 +6,6 @@
 🔭 I’m currently working on <a href="https://github.com/MYounesEG/MCQ-Assistant-Tool">MCQ-Assistant-Tool</a> <br>👯 I’m looking to collaborate on web projects<br>🌱 I’m currently learning Java , c++ , c# and web development  <br>💬 Ask me about python and complicated algorithms<br>⚡ Fun fact :<br>" I discovered that Lee Van Cleef shares my birthday, and suddenly, everything made sense. I mean, who wouldn’t want to share their cake day with the guy who played Ryan in Death Rides a Horse?"
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=MYounesEG&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=MYounesEG&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MYounesEG&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 

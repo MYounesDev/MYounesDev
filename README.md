@@ -55,7 +55,7 @@ I'm a passionate student developer at Kocaeli University, constantly exploring a
 
 ## 🤝 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-younes-aboushewil-014526305)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://us.linkedin.com/in/m-younes-aboushewil-014526305/)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohammadyounes686@gmail.com)
 
 

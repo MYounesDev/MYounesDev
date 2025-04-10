@@ -69,19 +69,12 @@ I'm a passionate student developer at Kocaeli University, constantly exploring a
 
 
 ## 📊 GitHub Statistics
-<div align="center" style="display: flex; justify-content: center; gap: 10px;">
-    <img 
-        src="https://nirzak-streak-stats.vercel.app/?user=MYounesEG&theme=radical&hide_border=true" 
-        style="height: 200px; width: auto;" 
-    />
-    <img 
-        class="m-2 select-none pointer-events-none" 
-        draggable="false" 
-        id="langs" 
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=MYounesEG&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
-        style="height: 200px; width: auto;" 
-    />    
-</div>
+
+<p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=MYounesEG&theme=radical&hide_border=true" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MYounesEG&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact" height="200"/>
+</p>
+
 
 
 

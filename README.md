@@ -71,8 +71,8 @@ I'm a passionate student developer at Kocaeli University, constantly exploring a
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=MYounesEG&theme=radical&hide_border=true" height="200"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MYounesEG&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact" height="200"/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=MYounesDev&theme=radical&hide_border=true" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MYounesDev&theme=radical&hide_border=true&include_all_commits=false&count_private=false&layout=compact" height="200"/>
 </p>
 
 
@@ -81,9 +81,9 @@ I'm a passionate student developer at Kocaeli University, constantly exploring a
 
 ## 🤝 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/MYounesEG/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/MYounesDev/)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/MYounesDev)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohammadyounes686@gmail.com)
-
 
 ---
 <div align="center">

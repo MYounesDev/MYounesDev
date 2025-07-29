@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+.container {
+    font-family: 'JetBrains Mono', monospace;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem;
+}
+.animated-text {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    line-height: 1.2;
+}
+.static-text {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+}
+.dynamic-text {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 50%, #4facfe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    min-width: 10px;
+    text-align: left;
+}
+.dynamic-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 50%, #4facfe 100%);
+    border-radius: 8px;
+    opacity: 0.1;
+    transform: scale(1.05);
+    filter: blur(5px);
+    z-index: -1;
+}
+.cursor {
+    color: #4facfe;
+    font-weight: 700;
+    margin-left: -20px;
+    animation: blink 1s infinite;
+    text-shadow: 0 0 10px #4facfe;
+}
+.typing {
+    overflow: hidden;
+    border-right: 2px solid #4facfe;
+    white-space: nowrap;
+    animation: typing 0.05s steps(1, end);
+}
+.deleting {
+    overflow: hidden;
+    border-right: 2px solid #f5576c;
+    white-space: nowrap;
+    animation: deleting 0.03s steps(1, end);
+}
+.glitch {
+    position: relative;
+    animation: glitch 0.3s ease-in-out;
+}
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.glitch::before {
+    animation: glitch-1 0.3s ease-in-out;
+    color: #ff0080;
+    z-index: -1;
+}
+.glitch::after {
+    animation: glitch-2 0.3s ease-in-out;
+    color: #00ff80;
+    z-index: -2;
+}
+.container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: float 20s linear infinite;
+    z-index: -1;
+}

@@ -12,7 +12,7 @@ class AnimatedText {
             'Code In TypeScript',
             'Write Python',
             'Deploy With Vercel',
-            'Know Prisma'
+            'Know Prisma and Drizzle'
         ];
         this.currentIndex = 0;
         this.currentText = '';

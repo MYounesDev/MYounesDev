@@ -1,20 +1,98 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated GitHub Profile Text</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="animated-text">
-            <span class="static-text">My Name is MYounes and I </span>
-            <span class="dynamic-text" id="dynamicText"></span>
-            <span class="cursor" id="cursor">|</span>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+<svg width="750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="staticGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="dynamicGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="50%" style="stop-color:#f5576c"/>
+      <stop offset="100%" style="stop-color:#4facfe"/>
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00f5ff"/>
+      <stop offset="50%" style="stop-color:#fc466b"/>
+      <stop offset="100%" style="stop-color:#3fffa3"/>
+    </linearGradient>
+    <pattern id="dotPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="1" fill="rgba(102, 126, 234, 0.1)"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#dotPattern)">
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      values="0,0; 25,25; 0,0" 
+      dur="20s" 
+      repeatCount="indefinite"/>
+  </rect>
+  <text x="0" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#staticGradient)">
+      I am MYounes and I 
+    <animate attributeName="opacity" values="1;0.8;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#dynamicGradient)">
+    <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Love Git & GitHub
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#dynamicGradient)">
+    <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Like Next.js
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#dynamicGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Master Node.js
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#dynamicGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Work With FastAPI
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#glowGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Use PostgreSQL
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#glowGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Explore MongoDB
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#glowGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Build With React
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#glowGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Style With Tailwind
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#staticGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Code In TypeScript
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#staticGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0" dur="24s" repeatCount="indefinite"/>
+    Write Python
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#staticGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0" dur="24s" repeatCount="indefinite"/>
+    Deploy With Vercel
+  </text>
+  <text x="350" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="600" fill="url(#staticGradient)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1" dur="24s" repeatCount="indefinite"/>
+    Know Prisma
+  </text>
+  <text x="700" y="80" font-family="'JetBrains Mono', Monaco, 'Cascadia Code', monospace" font-size="32" font-weight="700" fill="#4facfe">
+    |
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#4facfe;#f5576c;#4facfe" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <circle cx="400" cy="80" r="200" fill="none" stroke="rgba(102, 126, 234, 0.1)" stroke-width="2" opacity="0.3">
+    <animate attributeName="r" values="200;220;200" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="60" r="3" fill="rgba(102, 126, 234, 0.3)">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="60" r="2" fill="rgba(245, 87, 108, 0.4)">
+    <animate attributeName="r" values="2;4;2" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
